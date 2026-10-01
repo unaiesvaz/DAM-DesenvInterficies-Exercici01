@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
@@ -10,5 +11,6 @@
       <TextField fx:id="user_field" layoutX="227.0" layoutY="107.0" promptText="Username" />
       <TextField fx:id="age_field" layoutX="227.0" layoutY="153.0" promptText="Age" />
       <Button fx:id="next_button" layoutX="279.0" layoutY="200.0" mnemonicParsing="false" text="Next" />
+      <TextArea fx:id="error_area" layoutX="222.0" layoutY="237.0" prefHeight="26.0" prefWidth="158.0" />
    </children>
 </AnchorPane>
